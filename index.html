@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="signup-form">
+            <h2>Sign Up</h2>
+            <div class="form-group row">
+                <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="mobile" name="mobile" placeholder="Mobile No." required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group row">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+            </div>
+            <div class="form-group">
+                <label for="agree">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    I Agree
+                </label>
+                <p>By clicking <strong>Register</strong>, you agree to the <a href="#">Terms and Conditions</a> set out by this site, including our Cookie Use.</p>
+            </div>
+            <div class="form-buttons">
+                <button type="submit" class="register-btn">Register</button>
+                <button type="button" class="signin-btn">Sign In</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Antra Inc: 21355 Ridgetop Circle Suite 300 Dulles VA 20166</p>
+        <p>Phone: 703.994.4545 Fax: 703.373.2975 e-mail: <a href="mailto:hr@antra.net">hr@antra.net</a> website: <a href="http://www.antra.net">www.antra.net</a></p>
+    </footer>
+</body>
+</html>
